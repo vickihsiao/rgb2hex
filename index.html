@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RGB to Hex Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="flex-container">
+    <div id="rgb-controller">
+      <div class="slider">
+        <label for="red">R</label>
+        <input type="range" id="red" name="red" min="0" max="255" step="1" value="0">
+        <label for="red" id="red-output">0</label>
+      </div>
+      <div class="slider">
+        <label for="green">G</label>
+        <input type="range" id="green" name="green" min="0" max="255" step="1" value="0">
+        <label for="green" id="green-output">0</label>
+      </div>
+      <div class="slider">
+        <label for="blue">B</label>
+        <input type="range" id="blue" name="blue" min="0" max="255" step="1" value="0">
+        <label for="blue" id="blue-output">0</label>
+      </div>
+    </div>
+    <div id="hex-display">#FFFFFF</div>
+
+    <script src="index.js"></script>
+  </div>
+</body>
+
+</html>
